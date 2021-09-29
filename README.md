@@ -15,18 +15,19 @@ cd 6.887Lab2
 
 ### Step 2
 
-You can use the same conda environment that you used for Lab 1.
-
-In addition to the packages installed for Lab 1, install the required packages:
+If your Python version is at least 3.8, then you can directly use pip to install the required packages:
 ```
+python3 -m pip install jupyter numpy scikit-optimize cloudpickle
+```
+
+However, if your Python version is less than 3.8, or if you prefer to use an environment, use the following commands to create a conda environment and install required packages
+```
+conda create --name lab2_mlforsys python=3.8
+conda activate lab2_mlforsys
+conda install jupyter numpy cloudpickle
 conda install -c conda-forge scikit-optimize
-conda install -c anaconda cloudpickle
 ```
 
-If not using conda, use pip to install the required packages:
-```
-python3 -m pip install scikit-optimize cloudpickle
-```
 
 ### Step 3
 Launch jupyter notebook:
