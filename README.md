@@ -19,7 +19,8 @@ You can use the same conda environment that you used for Lab 1.
 
 In addition to the packages installed for Lab 1, install the required packages:
 ```
-conda install scikit-optimize cloudpickle
+conda install -c conda-forge scikit-optimize
+conda install -c anaconda cloudpickle
 ```
 
 If not using conda, use pip to install the required packages:
