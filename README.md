@@ -9,7 +9,7 @@
 
 Clone this repository with this command:
 ```
-git clone https://https://github.com/jialinding/6.887Lab2.git
+git clone https://github.com/jialinding/6.887Lab2.git
 cd 6.887Lab2
 ```
 
