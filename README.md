@@ -34,4 +34,4 @@ jupyter notebook
 ```
 
 ### Step 4
-Once completed, upload your notebook through Canvas.
+Once completed, upload your notebook through Canvas. If you do not have access to Canvas, email your completed notebook directly to Jialin (jialind@mit.edu) and Pouya (pouyah@mit.edu).
