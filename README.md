@@ -34,6 +34,7 @@ Launch jupyter notebook:
 ```
 jupyter notebook
 ```
+If you're having trouble with importing `skopt` in the first cell, make sure your scikit-learn version is `scikit-learn==0.24.2`. Apparently scikit-learn v1.0 is causing issues with `skopt`.
 
 ### Step 4
 Once completed, upload your notebook through Canvas. If you do not have access to Canvas, email your completed notebook directly to Jialin (jialind@mit.edu) and Pouya (pouyah@mit.edu).
